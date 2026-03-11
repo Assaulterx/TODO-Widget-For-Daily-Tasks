@@ -2,6 +2,7 @@
 
 
 SETUP STEPS FOR TODO LIST PYTHON APP FOR LOCAL DEVICES: For Windows Users (The Executable)
+
 1.
 Install Python and run: pip install pyinstaller
 
