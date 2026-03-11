@@ -1,4 +1,4 @@
-# ASSAULTER-X v3.1
+# TODO_WIDGET v3.1
 A lightweight, terminal-based task scheduler for Windows and Linux systems with persistent storage and daily resets.
 
 ## Features
@@ -47,7 +47,7 @@ npm run dev
 1. Install Python and run `pip install pyinstaller`
 2. Convert to EXE: Run this command
    ```bash
-   pyinstaller --onefile --noconsole assaulterx.py
+   pyinstaller --onefile --noconsole todo-widget.py
    ```
 3. Auto-Startup
    - Press `Win + R`, type `shell:startup`
@@ -62,14 +62,14 @@ npm run dev
    ```
 2. Set permissions
    ```bash
-   chmod +x assaulterx.py
+   chmod +x todo-widget.py
    ```
 3. Auto-Startup
    - Create `.config/autostart/assaulter.desktop` and add:
    ```ini
    [Desktop Entry]
    Type=Application
-   Exec=/path/to/assaulterx.py
+   Exec=/path/to/todo-widget.py
    Hidden=false
    NoDisplay=false
    X-GNOME-Autostart-enabled=true
@@ -102,18 +102,18 @@ npm run dev
 
 ```
 ASSAULTER-X/
-├── assaulterx.py          # Main application file
+├── todo-widget.py          # Main application file
 ├── README.md              # This file
 └── [Windows]
     └── dist/
-        └── assaulterx.exe # Compiled executable
+        └── todo-widget.exe # Compiled executable
 ```
 
 ## Data Storage
 
 Tasks are stored in JSON format at:
-- **Windows**: `%LOCALAPPDATA%/AssaulterX/terminaltasks.json`
-- **Linux**: `~/.local/share/appdata/AssaulterX/terminaltasks.json`
+- **Windows**: `%LOCALAPPDATA%/todo-widget/terminaltasks.json`
+- **Linux**: `~/.local/share/appdata/todo-widget/terminaltasks.json`
 
 ## Requirements
 
@@ -133,4 +133,5 @@ piyushpjamdhade@gmail.com
 ---
 
 **Made with ❤️ for productive developers**
+
 
