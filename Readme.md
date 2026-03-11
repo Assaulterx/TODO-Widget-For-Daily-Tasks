@@ -128,7 +128,9 @@ MIT License - Feel free to use and modify for your personal or professional proj
 ## Support
 
 For issues, suggestions, or feature requests, please open an issue on GitHub or contact the maintainer.
+piyushpjamdhade@gmail.com
 
 ---
 
 **Made with ❤️ for productive developers**
+
